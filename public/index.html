@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black flex items-center justify-center h-screen">
+    <div class="items-center justify-center p-2 text-white">
+        <div class=" flex justify-center mt-12 mb-3">
+            <img src="bg.jpg" alt="loading" class="w-20 h-20">
+        </div>
+        <div class="flex justify-center">
+            <label  class="bg-pink-900 text-center font-semibold mb-3 py-2 px-5 rounded-xl">
+                Random Password generator
+            </label>
+        </div>
+        <div class="mt-2 mb-5">
+            <p class="text-white">
+                Secure, Strong and Unique passwordsto keep your accounts safe online
+            </p>
+        </div>
+        <div class="bg-gradient-to-b from-pink-900 to-black mb-3 py-9 px-8 rounded-lg">
+            <div class="bg-gray-500 text-white-500 px-4 mx-3 mb-4 py-2 rounded-2xl ">
+                <p>hs8qyb8"7gwb@bd</p>
+            </div>
+        </div>
+        <div class="flex items-center justify-center">
+        <button class="bg-pink-900 px-5 py-2 rounded-xl">Generate</button>
+    </div>
+    <div class="flex justify-around bg-black border-pink-900 border-2 mt-6 p-5">
+        
+        <div class="mb-5 mt-4 flex-row">
+            <label class="bg-pink-900 text-center py-2 px-3 rounded-3xl">password length (6-64)
+            </label>
+        <div class=" mt-5">
+            <label class="ml-0 bg-white  rounded-full px-3 text-black text-center">20</label>
+            <input type="range" class=" ml-1 w-50">                   
+        </div>
+        <div class="mt-4">
+           <label for="options"></label>
+           <select name="Quick Options" id="options" class="bg-white text-black px-4 py-1 font-semibold rounded-2xl">
+            <option value="1">Option no 1</option>
+            <option value="2">Option no 2</option>
+            <option value="3">Option no 3</option>
+           </select>
+        </div>
+    </div>    
+    <div>
+        <label class="flex items center mb-3" >
+            <input type="checkbox">
+            <span>Upercase (ABC)</span>
+        </label>
+        <label class="flex items center mb-3">
+            <input type="checkbox">
+            <span>Lowercase (abc)</span>
+        </label>
+        <label class="flex items center mb-3">
+            <input type="checkbox">
+            <span>Numbers (123)</span>
+        </label>
+        <label class="flex items center">
+            <input type="checkbox">
+            <span>Characters (#&)</span>
+        </label>
+    </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
